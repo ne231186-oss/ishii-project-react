@@ -12,18 +12,14 @@ export function Events() {
           </div>
 
           <p>
-            学ぶだけではなく、実際に手を動かす。
-            2026年度に企画・開催したイベントと、
+            学ぶだけではなく、実際に手を動かす。 2026年度に企画・開催したイベントと、
             これからの予定です。
           </p>
         </div>
 
         <div className="events-grid">
           {events.map((event) => (
-            <EventCard
-              key={event.id}
-              event={event}
-            />
+            <EventCard key={event.id} event={event} />
           ))}
         </div>
       </div>

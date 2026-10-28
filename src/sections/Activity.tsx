@@ -23,15 +23,8 @@ export function Activity() {
 
         <div className="activity-gallery">
           {activities.map((activity, index) => (
-            <figure
-              className={`activity-item activity-item-${index + 1}`}
-              key={activity.id}
-            >
-              <img
-                src={activity.image}
-                alt={activity.alt}
-                loading="lazy"
-              />
+            <figure className={`activity-item activity-item-${index + 1}`} key={activity.id}>
+              <img src={activity.image} alt={activity.alt} loading="lazy" />
             </figure>
           ))}
         </div>

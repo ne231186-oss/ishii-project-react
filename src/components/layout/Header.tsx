@@ -2,15 +2,8 @@ export function Header() {
   return (
     <header className="site-header">
       <div className="container nav">
-        <a
-          className="brand"
-          href="#top"
-          aria-label="Ishii Project トップへ"
-        >
-          <img
-            src="/images/logo.png"
-            alt=""
-          />
+        <a className="brand" href="#top" aria-label="Ishii Project トップへ">
+          <img src="/images/logo.png" alt="" />
 
           <span>
             ISHII PROJECT
@@ -18,10 +11,7 @@ export function Header() {
           </span>
         </a>
 
-        <nav
-          className="nav-links"
-          aria-label="メインナビゲーション"
-        >
+        <nav className="nav-links" aria-label="メインナビゲーション">
           <a href="#about">About</a>
           <a href="#activity">Activity</a>
           <a href="#members">Members</a>
