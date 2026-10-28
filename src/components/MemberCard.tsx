@@ -20,9 +20,7 @@ export function MemberCard({ member }: { member: Member }) {
       <div className="member-content">
         <h3 className="member-name">{member.name}</h3>
 
-        <p className="member-message">
-          「{member.message}」
-        </p>
+        <p className="member-message">「{member.message}」</p>
       </div>
     </article>
   )

@@ -1,12 +1,4 @@
-const stack = [
-  'Processing',
-  'HTML',
-  'CSS',
-  'JavaScript',
-  'Node.js',
-  'Figma',
-  'VS Code',
-]
+const stack = ['Processing', 'HTML', 'CSS', 'JavaScript', 'Node.js', 'Figma', 'VS Code']
 
 export function About() {
   return (

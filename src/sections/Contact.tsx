@@ -1,9 +1,6 @@
 export function Contact() {
   return (
-    <section
-      className="contact"
-      id="contact"
-    >
+    <section className="contact" id="contact">
       <div className="container">
         <div className="contact-box">
           <span className="kicker">05 / Contact</span>
@@ -24,9 +21,7 @@ export function Contact() {
               Instagram ↗
             </a>
 
-            <a href="mailto:ishiiproject.2026@gmail.com">
-              Email ↗
-            </a>
+            <a href="mailto:ishiiproject.2026@gmail.com">Email ↗</a>
 
             <a
               href="https://sites.google.com/senshu-u.jp/ishii-project2026"

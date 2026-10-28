@@ -7,4 +7,19 @@ import { Events } from './sections/Events'
 import { Contact } from './sections/Contact'
 import { Activity } from './sections/Activity'
 
-export default function App() { return <><Header /><main><Hero /><About /><Activity /><Members /><Events /><Contact /></main><Footer /></> }
+export default function App() {
+  return (
+    <>
+      <Header />
+      <main>
+        <Hero />
+        <About />
+        <Activity />
+        <Members />
+        <Events />
+        <Contact />
+      </main>
+      <Footer />
+    </>
+  )
+}
