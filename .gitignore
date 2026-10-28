@@ -4,4 +4,10 @@ dist
 .env
 .env.*
 !.env.example
+
+# TypeScript build cache
 *.tsbuildinfo
+
+# Generated Vite config files
+vite.config.js
+vite.config.d.ts
